@@ -1,0 +1,9 @@
+Description: >
+  NGIRI MICHAEL / Udacity
+  This template deploys an AWS EC2 VPC.
+Resources:
+  UdacityReviewsVPC:
+    Type: AWS::EC2::VPC
+    Properties: 
+      CidrBlock: 10.0.0.0/16
+      EnableDnsHostnames: true
